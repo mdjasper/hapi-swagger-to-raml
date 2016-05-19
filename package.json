@@ -1,0 +1,21 @@
+{
+  "name": "hapi-swagger-to-raml",
+  "version": "1.0.0",
+  "description": "Module for hapi-swagger which generates a raml documentation file. Wraps swagger-to-raml-object and raml-object-to-raml in a useful way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "swagger",
+    "raml"
+  ],
+  "author": "Michael Jasper <mdjasper@ldschurch.org>",
+  "license": "ISC",
+  "dependencies": {
+    "raml-object-to-raml": "0.0.7",
+    "request": "^2.72.0",
+    "swagger-to-raml-object": "0.0.6"
+  }
+}
