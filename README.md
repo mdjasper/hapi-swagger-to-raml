@@ -8,7 +8,10 @@ To install this module, run:
 
     npm i hapi-swagger-to-raml --save
 
-The funtion accepts two parameters, the path to the swagger.json which is output by the documentation, and a folder path that the `api.raml` file will be output to on server start
+The funtion accepts two parameters:
+
+1. the path to the swagger.json which is output by the documentation
+2. a folder path that the `api.raml` file will be output to on server start
 
     let generateRaml = require('hapi-swagger-to-raml');
     generateRaml(server.info.uri + '/path-to-swagger-json', './export');
@@ -23,14 +26,16 @@ To expose the `api.raml` file as a static file, you can configure a route, simil
         }
     }
 
----
 
 ##Changelog
 
-1.0.1 - added documentation
-1.0.0 - initial version
+- 1.0.2 - documentation formatting
+- 1.0.1 - added documentation
+- 1.0.0 - initial version
 
-Contributors:
+---
 
-Michael Jasper <mdjasper@gmail.com>
-Brooke Frandsen <brookefrandsen@gmail.com>
+##Contributors:
+
+- Michael Jasper <mdjasper@gmail.com>
+- Brooke Frandsen <brookefrandsen@gmail.com>
