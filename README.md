@@ -27,6 +27,7 @@ To expose the `api.raml` file as a static file, you can configure a route, simil
 
 ##Changelog
 
+- 1.0.4 - error handle for the initial swagger.json request
 - 1.0.3 - documentation formatting
 - 1.0.2 - documentation formatting
 - 1.0.1 - added documentation

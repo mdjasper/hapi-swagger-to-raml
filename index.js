@@ -33,6 +33,8 @@ module.exports = function(swaggerPath, saveDirectory) {
                     });
                 }
             });
+        } else {
+            console.log('Error: ' + error);
         }
     })
 };
